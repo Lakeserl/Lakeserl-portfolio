@@ -1,0 +1,106 @@
+{
+    "Header.Item1": "About me",
+    "Header.Item2": "Education",
+    "Header.Item3": "Project",
+    "Header.Item4": "Services",
+    "Header.Item5": "Contract",
+    "Header.cvBtn": "Resume",
+    "Header.cvName": "VuDinhLam-CV.pdf",
+
+    "Banner.Pretitle": "Hello world, My name is ",
+    "Banner.Description": "I am an <span class='underline'>Intern Fullstack Developer</span> focusing on building web applications with <span class='underline'>Angular</span>, <span class='underline'>Spring Boot</span>, and <span class='underline'>Django</span>. I'm also leaning <span class='underline'>Asp.net</span> and <span class='underline'>React</span> to broaden my skills,Passionate about learning and challenges, I aim to contribute to real-world projects with scalable, high-quality applications",
+    "Banner.ActionBtn": "Say Hi",
+
+    "AboutMe.Title": "About Me",
+    "AboutMe.Paragraphs": [
+        "As an <span class='underline'>Intern Fullstack Developer</span>, I continuously improve my programming skills through learning, working on personal projects, and exploring new technologies in the industry.",  
+
+        "Currently, I focus on strengthening my skills with <span class='underline'>Angular</span>, <span class='underline'>Spring Boot</span>, and <span class='underline'>Django</span>, while also expanding my knowledge of <span class='underline'>ASP.NET Core</span> and <span class='underline'>React</span>.",  
+
+        "Throughout my development journey, I emphasize <span class='underline'>database design</span>, <span class='underline'>API development</span>, <span class='underline'>business logic handling</span>, and integrating <span class='underline'>frontend</span> – <span class='underline'>backend</span> to deliver complete web applications.",  
+
+        "My goal is to become a strong <span class='underline'>Fullstack Developer</span>, contributing to real-world projects with <span class='underline'>high-quality, scalable</span> solutions that deliver <span class='underline'>long-term value</span>."  
+    ],
+
+    "Education.Title": "Education",
+    "Education.Records": [
+    {
+      "Tab": "University",
+      "Degree" : "In process",
+      "School": "Dong Nai technology university",
+      "Date": "Sep-2021 - present",
+      "Description": [
+      "Major in software engineering",
+      "Currently pursuing coursework in <span class='underline'>Software Engineering</span> and <span class='underline'>Database Systems</span>",
+      "Studying multíubject, most interest in <span class='underline'>Asp.net core</span> and <span class='underline'>SQL server</span>",
+      "Active in team projects and research assignments",
+      "Expected graduation: 2026"
+      ]
+    },
+    {
+      "Tab": "HighSchool",
+      "Degree" : "High School Diploma",
+      "School": "Dong Nai technology university",
+      "Date": "Sep-2021 - present",
+      "Description": [
+        "Specialized in <span class='underline'>Mathematics<span class='underline'> and English",
+        "Graduated with strong foundation in <span class='underline'>problem-solving</span> and <span class='underline'>logical thinking</span>",
+        ""
+      ]
+    },
+    {
+        "Tab": "Self-learn",
+        "Degree": "Fullstack Web Development (Self-taught)",
+        "School": "Online Platforms (Udemy, Coursera, Official Docs)",
+        "Date": "2022 – Present",
+        "Description": [
+        "Focused on Java, Python, Spring Boot, Angular",
+        "Built several personal projects",
+        "Practicing <span class='underline'> Data Structures & Algorithms </span> for technical interviews"
+        ]
+    }
+    ],
+      "Services": {
+        "Title": "Services",
+        "WebDev": {
+          "Title": "Web Development",
+          "Description": "Building scalable, responsive, and <span class='underline'>high-quality</span> web applications using modern frameworks like Angular, SpringBoot and Django"
+        },
+        "DevOps": {
+          "Title": "DevOps",
+          "Description": "Implementing <span class='underline'>CI/CD pipelines</span>, system automation, and monitoring to improve development workflow and deployment efficiency."
+        },
+        "Mobile": {
+          "Title" : "Mobile Development",
+          "Description": "Creating mobile applications with <span class='underline'>cross-platform support</span>, focusing on user-friendly interfaces and scalability."
+        }
+    },
+
+    "Project.Title": "My Proj",
+    "Project.Projects": [
+      {
+        "Title": "",
+        "Description": "",
+        "img": [
+
+        ],
+        "Technologies": []
+      }
+    ],
+    "OtherProjects.Title": "More Projects",
+    "OtherProjects.Projects": [
+    {
+      "Title": "",
+      "Description": "",
+      "imgs": [],
+      "ghLink": "",
+      "demoLink": "",
+      "Technologies": []
+    }
+  ],
+
+  "Contact.Pretitle": "And...Now?",
+  "Contact.Title": "Say Hi!",
+  "Contact.Content": "Whether you have a question, a project idea, or just want to say hello, I’d love to hear from you. Feel free to reach out anytime!",
+  "Contact.Btn": "Contact Me"
+}

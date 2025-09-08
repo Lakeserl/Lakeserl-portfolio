@@ -30,7 +30,10 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "@fortawesome/fontawesome-free/css/all.css",
+              "bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss",
+              "src/fonts.scss"
             ]
           },
           "configurations": {
@@ -94,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e953de38-67cd-44f3-b104-79740947f2d6"
   }
 }

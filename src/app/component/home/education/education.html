@@ -1,0 +1,40 @@
+<!-- HTML -->
+<section class="section education" id="education">
+    <div class="container">
+        <div class="section-box">
+            <div class="about-title mb-5 fade-up">
+                <h3 class="e-font section-title">
+                    <span class="code-font n-section-title">02.</span> {{"Education.Title" | translate}}
+                </h3>
+            </div>
+            <div class="education-tabs fade-up">
+                <ul class="nav nav-tabs education-tabs" role="tablist">
+                    @for (record of "Education.Records" | translate; track record.Tab; let i = $index) {
+                        <li class="nav-item">
+                            <a class="nav-link" 
+                               [class.active]="active === i"
+                               (click)="active = i">
+                                {{record.Tab}}
+                            </a>
+                        </li>
+                    }
+                </ul>
+                <div class="tab-content mt-2">
+                    @for (record of "Education.Records" | translate; track record.Tab; let i = $index) {
+                        @if (active === i) {
+                            <div>
+                                <h4 class='title-tab-content'>{{record.Degree}} | <span class="school-tab-content">{{record.School}}</span></h4>
+                                <h5 class="education-time">{{record.Date}}</h5>
+                                @for (description of record.Description; track description) {
+                                    @if (description) {
+                                        <p class="education-description" [innerHTML]="description | translate"></p>
+                                    }
+                                }
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

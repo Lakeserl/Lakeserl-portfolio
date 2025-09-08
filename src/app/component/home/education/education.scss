@@ -1,0 +1,139 @@
+@import "./../../../../variables.scss";
+
+.education {
+  max-width: 700px;
+  margin: auto;
+  
+
+  .title-tab-content {
+    Color: $LightestSlate;
+    font-size: 20px; 
+    font-weight: 500;
+    margin-bottom: 5px; 
+  }
+
+  .education-time {
+    font-family: $CodeFont;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    color: $LightestSlate;
+    margin-bottom: 20px; 
+  }
+
+  .education-description {
+    position: relative;
+    padding-left: 28px; 
+    margin-bottom: 10px;
+    font-size: 16px;
+
+    &:before {
+      content: '▹';
+      position: absolute;
+      left: 0;
+      color: $Green;
+    }
+  }
+}
+
+.education .education-tabs {
+  display: flex;
+
+  .tab-content {
+    margin-left: 40px; 
+  }
+
+  ul {
+    display: block;
+    width: 140px; 
+    border: none;
+  }
+
+  li {
+    border-left: 2px solid $LightestNavy;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: rgb(48, 60, 85);
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    height: 42px;
+    padding: 0 20px 2px;
+    text-align: left;
+    white-space: nowrap;
+    font-family: $CodeFont;
+    font-size: 14px; 
+    color: $Slate;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    cursor: pointer; 
+
+  }
+
+  a.active {
+    background-color: $LightNavy !important;
+    color: $Green !important;
+    border-color: transparent !important;
+  }
+
+  a:hover {
+    background-color: $LightNavy !important;
+    color: $Green !important;
+    border-color: transparent !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding-top: 30px;
+
+    .education-description {
+      padding: 0;
+      font-size: 15px;
+    }
+
+    .title-tab-content {
+      font-size: 18px;
+    }
+  }
+
+  ::ng-deep .education-tabs {
+    display: block !important;
+
+    .tab-content {
+      margin-left: 0 !important;
+      margin-top: 20px;
+    }
+
+    ul {
+      display: flex !important;
+      flex-wrap: wrap;
+      width: 100% !important;
+      margin-bottom: 20px;
+      justify-content: center;
+
+      li {
+        border-left: none;
+        border-bottom: 2px solid $LightestNavy;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+        a {
+          font-size: 12px;
+          padding: 6px 12px;
+          min-width: 80px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

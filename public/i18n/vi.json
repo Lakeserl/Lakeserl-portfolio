@@ -1,0 +1,104 @@
+{
+    "Header.Item1": "Giới thiệu",
+    "Header.Item2": "Học vấn",
+    "Header.Item3": "Dự án",
+    "Header.Item4": "Liên hệ",
+    "Header.cvBtn": "Sơ yếu lý lịch",
+    "Header.cvName": "VuDinhLam-CV.pdf",
+
+    "Banner.Pretitle": "Xin chào, Tôi là ",
+    "Banner.Description": "Mình là một <span class='underline'>Intern Fullstack Developer</span>, tập trung vào phát triển ứng dụng web với <span class='underline'>Angular</span>, <span class='underline'>Spring Boot</span> và <span class='underline'>Django</span>. Ngoài ra mình cũng học thêm về <span class='underline'>Asp.net</span> và <span class='underline'>React</span> để mở rộng kỹ năng. Mình đam mê học hỏi, yêu thích thử thách và mong muốn đóng góp vào các dự án thực tế với sản phẩm chất lượng, dễ mở rộng",
+    "Banner.ActionBtn": "Xin chào",
+
+    "AboutMe.Title": "Về Tôi",
+    "AboutMe.Paragraphs": [
+        "Là một <span class='underline'>Intern Fullstack Developer</span>, tôi không ngừng trau dồi kỹ năng lập trình của mình thông qua việc học tập, thực hiện dự án cá nhân và tìm hiểu thêm những công nghệ mới trên thị trường.",  
+
+        "Hiện tại, tôi tập trung phát triển kỹ năng với <span class='underline'>Angular</span>, <span class='underline'>Spring Boot</span> và <span class='underline'>Django</span>, đồng thời không ngừng mở rộng kiến thức về <span class='underline'>ASP.NET Core</span> và <span class='underline'>React</span>.",
+
+        "Trong quá trình phát triển bản thân, tôi chú trọng vào việc <span class='underline'>thiết kế cơ sở dữ liệu</span>, <span class='underline'>xây dựng API</span>, <span class='underline'>xử lý luồng nghiệp vụ</span> và tích hợp <span class='underline'>frontend</span> – <span class='underline'>backend</span> để hoàn thiện ứng dụng web.",  
+
+        "Mục tiêu của tôi là trở thành một <span class='underline'>Fullstack Developer vững vàng</span>, đóng góp vào các dự án thực tế với sản phẩm <span class='underline'>chất lượng, dễ mở rộng</span> và mang lại <span class='underline'>giá trị lâu dài</span>."  
+    ],
+
+    "Education.Title": "Học vấn",
+    "Education.Records": [
+      {
+        "Tab": "Đại học",
+        "Degree": "Đang theo học",
+        "School": "Trường Đại học Công nghệ Đồng Nai",
+        "Date": "09/2021 - nay",
+        "Description": [
+          "Chuyên ngành <span class='underline'>Kỹ thuật phần mềm</span>",
+          "Hiện đang học các môn <span class='underline'>Kỹ thuật phần mềm</span> và <span class='underline'>Hệ quản trị cơ sở dữ liệu</span>",
+          "Quan tâm nhiều nhất đến <span class='underline'>Asp.net core</span> và <span class='underline'>SQL Server</span>",
+          "Tích cực tham gia các dự án nhóm và bài tập nghiên cứu",
+          "Dự kiến tốt nghiệp: 2026"
+        ]
+      },
+      {
+        "Tab": "Cấp 3",
+        "Degree": "Bằng tốt nghiệp THPT",
+        "School": "Trường THPT Long Thành",
+        "Date": "2018 - 2021",
+        "Description": [
+          "Chuyên môn <span class='underline'>Toán học</span> và <span class='underline'>Tiếng Anh</span>",
+          "Tốt nghiệp với nền tảng vững chắc về <span class='underline'>tư duy giải quyết vấn đề</span> và <span class='underline'>tư duy logic</span>"
+        ]
+      },
+      {
+        "Tab": "Tự học",
+        "Degree": "Fullstack Web Development (Tự học)",
+        "School": "Nền tảng trực tuyến (Udemy, Coursera, tài liệu chính thức)",
+        "Date": "2022 – nay",
+        "Description": [
+          "Tập trung vào Java, Python, Spring Boot, Angular",
+          "Xây dựng nhiều dự án cá nhân",
+          "Luyện tập <span class='underline'>Cấu trúc dữ liệu & Giải thuật</span> để chuẩn bị cho phỏng vấn kỹ thuật"
+        ]
+      }
+    ],
+"Services": {
+  "Title": "Dịch Vụ",
+  "WebDev": {
+    "Title": "Phát Triển Web",
+    "Description": "Xây dựng các ứng dụng web <span class='underline'>chất lượng cao</span>, có khả năng mở rộng và responsive, sử dụng các framework hiện đại như Angular, SpringBoot và Django"
+  },
+  "DevOps": {
+    "Title": "DevOps",
+    "Description": "Triển khai <span class='underline'>CI/CD pipelines</span>, tự động hóa hệ thống và giám sát để cải thiện quy trình phát triển cũng như hiệu quả triển khai."
+  },
+  "Mobile": {
+    "Title": "Phát Triển Di Động",
+    "Description": "Tạo ra các ứng dụng di động với <span class='underline'>hỗ trợ đa nền tảng</span>, tập trung vào giao diện thân thiện với người dùng và khả năng mở rộng."
+  }
+},
+
+  "Project.Title": "Dự án của tôi",
+    "Project.Projects": [
+      {
+        "Title": "",
+        "Description": "",
+        "img": [
+
+        ],
+        "Technologies": []
+      }
+    ],
+    "OtherProjects.Title": "Các Dự Án Khác",
+    "OtherProjects.Projects": [
+    {
+      "Title": "",
+      "Description": "",
+      "imgs": [],
+      "ghLink": "",
+      "demoLink": "",
+      "Technologies": []
+    }
+  ],
+
+"Contact.Pretitle": "Và... Bây giờ?",
+"Contact.Title": "Hãy nói lời chào!",
+"Contact.Content": "Mình rất vui được lắng nghe bạn nếu muốn trao đổi về những cơ hội mới. Hãy nhắn cho mình, và mình sẽ phản hồi ngay khi có thể.",
+"Contact.Btn": "Liên hệ với mình"
+}
