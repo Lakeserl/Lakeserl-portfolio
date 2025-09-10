@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lakeserl-portfolio": {
+    "Lakeserl-Porfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -30,10 +30,13 @@
               }
             ],
             "styles": [
-              "@fortawesome/fontawesome-free/css/all.css",
+              "@fortawesome/fontawesome-free/css/all.min.css",
               "bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss",
               "src/fonts.scss"
+            ],
+            "scripts": [
+              "bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
           },
           "configurations": {

@@ -75,28 +75,65 @@
 },
 
   "Project.Title": "Dự án của tôi",
-    "Project.Projects": [
+  "Project.Label": "Highlighted Project",
+  "Project.Projects": [
       {
-        "Title": "",
-        "Description": "",
-        "img": [
-
+        "Title": "Gym Management",
+        "Description": "Một website dành cho các thành viên phòng gym để <span class='underline'>theo dõi hoạt động</span>, <span class='underline'>quản lý thông tin cá nhân</span>, <span class='underline'>tạo kế hoạch tập luyện</span>, và <span class='underline'>phân tích tiến trình</span>.",
+        "imgs": [
+          "/images/gymManager/images.png",
+          "/images/gymManager/images1.png",
+          "/images/gymManager/images2.png",
+          "/images/gymManager/images3.png",
+          "/images/gymManager/images4.png"
         ],
-        "Technologies": []
+        "Technologies": ["Angular", "Spring Boot", "Bootstrap", "MySql"]
+      },
+      {
+        "Title": "Taking Notes",
+        "Description": "Một website dành cho <span class='underline'>tất cả người dùng đã đăng ký</span> cho phép ghi chú cá nhân một cách an toàn. Ứng dụng này triển khai nhiều lớp <span class='underline'>bảo mật</span> bao gồm <span class='underline'>OAuth (Google, Facebook)</span>, <span class='underline'>JWT</span>, và <span class='underline'>MFA (Google Authentication)</span> để đảm bảo rằng <span class='underline'>không có truy cập trái phép</span> nào có thể xâm phạm các ghi chú của bạn.",
+        "imgs": [
+          "/images/takingNotes/images1.png",
+          "/images/takingNotes/images2.png",
+          "/images/takingNotes/images3.png",
+          "/images/takingNotes/images4.png",
+          "/images/takingNotes/images5.png"
+        ],
+        "Technologies": ["Angular", "Spring Boot", "Bootstrap", "Postgres"]
       }
     ],
-    "OtherProjects.Title": "Các Dự Án Khác",
-    "OtherProjects.Projects": [
+
+  "OtherProjects.Title": "More Projects",
+  "OtherProjects.Projects": [
     {
-      "Title": "",
-      "Description": "",
-      "imgs": [],
-      "ghLink": "",
-      "demoLink": "",
-      "Technologies": []
+      "Title": "Hotel Manager",
+      "Description": "Một website cho phép người dùng <span class='underline'>xem phòng còn trống</span>, <span class='underline'>xem chi tiết phòng</span>, và <span class='underline'>đặt phòng dễ dàng</span>",
+      "ghLink": "https://github.com/Lakeserl/hotel_manager",
+      "demoLink": "#",
+      "Technologies": ["Angular", "Spring Boot", "SASS", "MySql"]
+    },
+    {
+      "Title": "Online Ordering Food",
+      "Description": "Một website thân thiện cho phép <span class='underline'>đặt đồ ăn</span>, <span class='underline'>xem món ăn</span>, <span class='underline'>chọn nguyên liệu</span>, và <span class='underline'>theo dõi đơn hàng</span>",
+      "ghLink": "https://github.com/Lakeserl/Online-Order-Food",
+      "demoLink": "#",
+      "Technologies": ["React", "Spring Boot", "MySql", "API", "Tailwind"]
+    },
+    {
+      "Title": "Cosmetics ecommerce",
+      "Description": "Một website thương mại điện tử đầy đủ tính năng cho phép <span class='underline'>xem sản phẩm</span>, <span class='underline'>thêm vào giỏ hàng</span>, <span class='underline'>đặt hàng</span>, <span class='underline'>thanh toán trực tuyến</span>, <span class='underline'>quản lý tài khoản người dùng</span>, <span class='underline'>viết đánh giá</span>, và <span class='underline'>sử dụng mã giảm giá và danh sách yêu thích</span>",
+      "ghLink": "https://github.com/Lakeserl/cosmetic-ecommerce",
+      "demoLink": "#",
+      "Technologies": ["Angular", "Spring Boot", "Angular Materials", "Postgres", "Redis", "Docker"]
+    },
+    {
+      "Title": "Library",
+      "Description": "Dự án cá nhân cho phép người dùng <span class='underline'>xem sách có sẵn</span>, <span class='underline'>mượn và trả sách</span>, <span class='underline'>tìm kiếm theo tựa sách</span>, và <span class='underline'>quản lý tài khoản thư viện</span>",
+      "ghLink": "https://github.com/Lakeserl/book-online",
+      "demoLink": "#",
+      "Technologies": ["Angular", "Spring Boot", "MySql", "Bootstrap"]
     }
   ],
-
 "Contact.Pretitle": "Và... Bây giờ?",
 "Contact.Title": "Hãy nói lời chào!",
 "Contact.Content": "Mình rất vui được lắng nghe bạn nếu muốn trao đổi về những cơ hội mới. Hãy nhắn cho mình, và mình sẽ phản hồi ngay khi có thể.",

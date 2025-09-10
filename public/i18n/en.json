@@ -76,26 +76,64 @@
         }
     },
 
-    "Project.Title": "My Proj",
+    "Project.Title": "My Projects",
+    "Project.Label": "Highlighted Project",
     "Project.Projects": [
       {
-        "Title": "",
-        "Description": "",
-        "img": [
-
+        "Title": "Gym Management",
+        "Description": "A website for gym members to <span class='underline'>track activities</span>, <span class='underline'>manage personal information</span>, <span class='underline'>create workout plans</span>, and <span class='underline'>analyze progress</span>.",
+        "imgs": [
+          "/images/gymManager/images.png",
+          "/images/gymManager/images1.png",
+          "/images/gymManager/images2.png",
+          "/images/gymManager/images3.png",
+          "/images/gymManager/images4.png"
         ],
-        "Technologies": []
+        "Technologies": ["Angular", "Spring Boot", "Bootstrap", "MySql"]
+      },
+      {
+        "Title": "Taking Notes",
+        "Description": "A website for <span class='underline'>all registered users</span> that allows taking personal notes securely.This application implements multiple layers of <span class='underline'>security</span> including <span class='underline'>OAuth(Google, Facebook)</span>, <span class='underline'>JWT</span>, and <span class='underline'>MFA(Google Authentication)</span> to ensure that <span class='underline'>no unauthorized access</span> can compromise your notes.",
+        "imgs": [
+          "/images/takingNotes/images1.png",
+          "/images/takingNotes/images2.png",
+          "/images/takingNotes/images3.png",
+          "/images/takingNotes/images4.png",
+          "/images/takingNotes/images5.png"
+        ],
+        "Technologies": ["Angular", "Spring Boot", "Bootstrap", "Postgres"]
       }
     ],
-    "OtherProjects.Title": "More Projects",
-    "OtherProjects.Projects": [
+
+"OtherProjects.Title": "More Projects",
+  "OtherProjects.Projects": [
     {
-      "Title": "",
-      "Description": "",
-      "imgs": [],
-      "ghLink": "",
-      "demoLink": "",
-      "Technologies": []
+      "Title": "Hotel Manager",
+      "Description": "The website that allows users to check <span class='underline'>available rooms</span>, <span class='underline'>view room details</span>, and <span class='underline'>make reservations easily </span>",
+      "ghLink": "https://github.com/Lakeserl/hotel_manager",
+      "demoLink": "#",
+      "Technologies": ["Angular", "Spring Boot", "SASS", "MySql"]
+    },
+    {
+      "Title": "Online Ordering Food",
+      "Description": "A user-friendly website for <span class='underline'>ordering food</span>, <span class='underline'>viewing menu items</span>, <span class='underline'>selecting ingredients</span>, and <span class='underline'>tracking your orders</span>",
+      "ghLink": "https://github.com/Lakeserl/Online-Order-Food",
+      "demoLink": "#",
+      "Technologies": ["React", "Spring Boot", "MySql", "API", "Tailwind"]
+    },
+    {
+      "Title": "Cosmetics ecommerce",
+      "Description": "A full-featured e-commerce website for <span class='underline'>browsing products</span>, <span class='underline'>adding items to cart</span>, <span class='underline'>placing orders</span>, <span class='underline'>making online payments</span>, <span class='underline'>managing user accounts</span>, <span class='underline'>writing reviews</span>, and <span class='underline'>using coupons and wishlists</span>.",
+      "ghLink": "https://github.com/Lakeserl/cosmetic-ecommerce",
+      "demoLink": "#",
+      "Technologies": ["Angular", "Spring Boot", "Angular Materials", "Postgres", "Redis", "Docker"]
+    },
+    {
+      "Title": "Library",
+      "Description": "Personal project that that allows users to <span class='underline'>browse available books</span>, <span class='underline'>borrow and return books</span>, <span class='underline'>search for titles</span>, and <span class='underline'>manage their library accounts</span>.",
+      "ghLink": "https://github.com/Lakeserl/book-online",
+      "demoLink": "#",
+      "Technologies": ["Angular", "Spring Boot", "MySql", "Bootstrap"]
     }
   ],
 
