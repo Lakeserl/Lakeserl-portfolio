@@ -14,7 +14,7 @@ import { AnalyticsService } from '../../../service/analytic/analytics-service';
 })
 export class Header implements OnInit{
   responsiveMenuVisible: Boolean = false;
-  pageYPosition!: number;
+  pageYPosition: number = 0;
   languageFormControl: FormControl = new FormControl();
   cvName: string = "";
   dropdownOpen: boolean = false;
